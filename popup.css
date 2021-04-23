@@ -1,0 +1,122 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 384px;
+}
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #2f5876;
+}
+
+input {
+    outline: none;
+}
+
+a:link,
+a:visited {
+  color: #1877f2;
+  outline: 0;
+  text-decoration: none;
+}
+a:hover {
+  color: #1877f2;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+img {
+  width: 30px;
+}
+
+.modal-header {
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0px;
+}
+
+.radios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.radio > label {
+    font-size: 15px;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.actions > input {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.actions > input:hover,
+.actions > input:focus {
+    border-color: #1877f2;
+}
+
+.modal-footer {
+  border-top: 0.5px solid #dadada;
+  padding: 14px 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.version {
+  color: #444;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px;
+  background: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+

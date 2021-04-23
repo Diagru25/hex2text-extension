@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hex to text</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+		<link rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+			integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous" />
+		<link rel="stylesheet" href="popup.css" />
+        <script src="utf8.js"></script>
+	</head>
+
+	<body>
+		<div class="modal-header">
+			<h1 class="logo">
+				<img src="images/logo.png" alt="" class="logo-icon" /> Hex to text
+				<span class="version">(1.0.0)</span>
+			</h1>
+		</div>
+		<div class="modal-content">
+			<div class="radios">
+				<div class="radio">
+					<input type="radio" id="hex2text" name="option" value="hex2text" checked/>
+					<label for="hex2text">Hex to text</label>
+				</div>
+				<div class="radio">
+					<input type="radio" id="text2hex" name="option" value="text2hex"/>
+					<label for="text2hex">Text to hex</label>
+				</div>
+			</div>
+			<div class="actions">
+				<input placeholder="hex code" id="hexInput" />
+				<button class="btn" id="decodeButton">Decode</button>
+			</div>
+		</div>
+		<div class="modal-footer" id="footer">
+		</div>
+	</body>
+
+	<script src="popup.js"></script>
+</html>
